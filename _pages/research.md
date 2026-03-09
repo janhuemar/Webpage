@@ -39,7 +39,7 @@ study how the pioneer transcription factor **Oct4** interacts with chromatin fib
 Our simulations reveal that Oct4 increases DNA accessibility **not by globally
 decondensing chromatin**, but by reorganising chromatin fibres into **compact,
 liquid-like structures** in which nucleosomes dynamically rearrange and transiently
-expose DNA. :contentReference[oaicite:0]{index=0}
+expose DNA. 
 
 Oct4 achieves this through a combination of mechanisms:
 
