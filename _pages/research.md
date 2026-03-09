@@ -6,79 +6,66 @@ author_profile: true
 
 ## Overview
 
-My research focuses on understanding how the physical organisation of chromatin regulates
-DNA accessibility and gene regulation. I combine molecular simulations with theoretical
-biophysics to study how transcription factors interact with nucleosomes and how chromatin
-structure influences the ability of regulatory proteins to locate and bind their target
-sites.
+My research focuses on understanding how the physical organisation of chromatin
+regulates DNA accessibility and gene regulation. I combine molecular simulations
+and theoretical biophysics to study how transcription factors interact with
+nucleosomes and how chromatin structure influences gene regulation.
 
-A central theme of my work is the role of **chromatin dynamics and multivalent protein
-interactions** in shaping genome organisation. Chromatin is not a rigid fibre but a
-highly dynamic and heterogeneous polymer whose structure emerges from a balance between
-histone–DNA interactions, nucleosome stacking, and the binding of chromatin-associated
-proteins.
-
-Using chemically detailed coarse-grained simulations, I investigate how transcription
-factors and chromatin architecture jointly determine the accessibility of DNA and the
-formation of regulatory assemblies.
+A central theme of my work is the role of **chromatin dynamics and multivalent
+protein interactions** in shaping genome organisation.
 
 ---
 
-## Pioneer transcription factors and chromatin accessibility
+## Highlighted work
 
-Pioneer transcription factors are able to recognise DNA targets within nucleosomes and
-initiate gene activation in otherwise inaccessible chromatin. Understanding how these
-proteins overcome the physical constraints imposed by chromatin is essential for
-explaining processes such as cell-fate transitions and cellular reprogramming.
+<div style="display:flex; gap:30px; margin-bottom:50px; align-items:center; flex-wrap:wrap;">
 
-In recent work, we used near-atomistic coarse-grained molecular dynamics simulations to
-study how the pioneer transcription factor **Oct4** interacts with chromatin fibres.
+<div style="flex:1; min-width:300px;">
+<img src="/images/oct4_chromatin.png" style="width:100%; border-radius:8px;">
+</div>
 
-![Oct4 chromatin simulation](/images/oct4_chromatin.png)
+<div style="flex:2; min-width:300px;">
 
-Our simulations reveal that Oct4 increases DNA accessibility **not by globally
-decondensing chromatin**, but by reorganising chromatin fibres into **compact,
-liquid-like structures** in which nucleosomes dynamically rearrange and transiently
-expose DNA. 
+### Oct4 clusters promote DNA accessibility by enhancing chromatin plasticity
 
-Oct4 achieves this through a combination of mechanisms:
+Using near-atomistic coarse-grained molecular dynamics simulations, we show that
+the pioneer transcription factor **Oct4** increases DNA accessibility without
+globally decondensing chromatin.
 
-- binding preferentially to linker DNA through its DNA-binding domains
-- promoting **nucleosome breathing** and transient DNA unwrapping
-- forming **multivalent clusters** mediated by its disordered activation domains
+Instead, Oct4 reorganises chromatin fibres into **compact liquid-like states**
+in which nucleosomes dynamically rearrange and transiently expose DNA.
 
-These clusters reorganise chromatin fibres and create dynamic environments in which DNA
-binding sites become transiently accessible while chromatin remains globally compact.
+These clusters emerge from multivalent interactions mediated by Oct4’s
+intrinsically disordered domains and DNA-binding domains.
 
-This work provides a physical mechanism for how pioneer transcription factors can
-activate genes within closed chromatin.
+<a href="https://doi.org/10.1101/2025.10.20.683403" class="btn btn--primary">Read paper</a>
 
-**Huertas J, Maristany MJ, Collepardo-Guevara R**  
-*Oct4 clusters promote DNA accessibility by enhancing chromatin plasticity*
+</div>
+</div>
 
----
 
-## Chromatin organisation and phase-separated condensates
+<div style="display:flex; gap:30px; margin-bottom:50px; align-items:center; flex-wrap:wrap;">
 
-Another focus of my research is understanding how chromatin behaves within biomolecular
-condensates formed through phase separation.
+<div style="flex:1; min-width:300px;">
+<img src="/images/chromatin_condensate.png" style="width:100%; border-radius:8px;">
+</div>
 
-Chromatin is not simply a passive polymer embedded in these condensates. Instead, the
-structure and mechanics of chromatin actively shape the formation, stability, and
-material properties of nuclear condensates.
+<div style="flex:2; min-width:300px;">
 
-Using multiscale simulations, we have shown how chromatin fibres interact with protein
-condensates and how nucleosome-level interactions can give rise to emergent mesoscale
-organisation.
+### Multi-scale structure of chromatin condensates
 
-![Chromatin condensate simulation](/images/chromatin_condensate.png)
+Chromatin is not simply a passive polymer inside nuclear condensates.
+Instead, chromatin structure actively shapes the formation, stability,
+and material properties of biomolecular condensates.
 
-These studies reveal how the interplay between chromatin architecture, protein
-multivalency, and DNA accessibility contribute to the formation of nuclear
-compartments that regulate gene expression.
+Using multiscale simulations, we show how nucleosome-level interactions
+and chromatin flexibility regulate the architecture of chromatin-rich
+condensates and influence genome organisation.
 
-**Zhou H, Huertas J et al.**  
-*Multiscale structure of chromatin condensates explains phase separation and material properties*
+<a href="/publications/" class="btn btn--primary">See publication</a>
+
+</div>
+</div>
 
 ---
 
@@ -86,10 +73,7 @@ compartments that regulate gene expression.
 
 My current research explores several related questions:
 
-- How pioneer transcription factors locate their target sites within chromatin
+- How pioneer transcription factors locate target sites within chromatin
 - How chromatin architecture influences transcription factor clustering
-- How phase separation and chromatin organisation jointly regulate gene activation
-- How multiscale simulations can bridge molecular interactions and genome-scale structure
-
-Ultimately, this work aims to uncover the **physical principles governing chromatin
-organisation and gene regulation**.
+- How phase separation and chromatin organisation jointly regulate gene expression
+- How multiscale simulations bridge molecular interactions and genome-scale organisation
