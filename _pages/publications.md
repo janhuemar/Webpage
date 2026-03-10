@@ -16,9 +16,13 @@ author_profile: true
 
 ## Preprints
 
-✉ Maristany M.J., Perez-Lopez J.I., Farr S.E., **Huertas J.**, Collepardo-Guevara R. (2025).  
-Mechanical properties of DNA govern nucleosome unwrapping. *In preparation*.  
-[DOI]
+✉ Maristany M.J., Perez-Lopez J.I., Farr S.E., **Huertas J.**, Collepardo-Guevara R. (2026).  
+Mechanical properties of DNA govern nucleosome unwrapping. *BioRxiv*.  
+[DOI](https://doi.org/10.64898/2026.02.16.706184)
+
+⚙ Spicer M.F.D., Wijma S., Schütte N., **Huertas J**, et al. (2026). 
+Electrostatic control of chromatin compaction safeguards against apoptotic DNA release. *BioRxiv*
+[DOI](https://doi.org/10.64898/2026.02.23.707452)
 
 ★ **Huertas J.**, Maristany M.J., Collepardo-Guevara R. (2025).  
 Oct4 clusters promote DNA accessibility by enhancing chromatin plasticity. *BioRxiv*.  
