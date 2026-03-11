@@ -55,13 +55,11 @@ A central theme of my work is the role of <strong>chromatin dynamics and multiva
     <h3 style="margin-top:0;">Multi-scale structure of chromatin condensates</h3>
 
     <p>
-      Chromatin is not simply a passive polymer inside nuclear condensates. Instead, chromatin structure actively shapes
-      the formation, stability, and material properties of biomolecular condensates.
+      Chromatin and associated proteins can form liquid-like condensates through liquid–liquid phase separation, spatially organizing DNA to control which genes are accessible to transcriptional machinery. 
     </p>
 
     <p>
-      Using multiscale simulations, we show how nucleosome-level interactions and chromatin flexibility regulate the
-      architecture of chromatin-rich condensates and influence genome organisation.
+      By combining cryo-electron tomography with a multiscale chromatin model that resolves structures at single-amino-acid and base-pair resolution, we reveal how DNA mechanics and histone–DNA interactions shape the structure and dynamics of chromatin arrays within condensates, providing a powerful framework for studying biomolecular organization at sub-molecular detail.
     </p>
 
     <p>
