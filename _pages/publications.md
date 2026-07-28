@@ -16,9 +16,17 @@ author_profile: true
 
 ## Preprints
 
-✉ Maristany M.J., Perez-Lopez J.I., Farr S.E., **Huertas J.**, Collepardo-Guevara R. (2026).  
-Mechanical properties of DNA govern nucleosome unwrapping. *BioRxiv*.  
+✉ Perez-Lopez J.I. and Maristany M.J., Farr S.E., **Huertas J.**, Collepardo-Guevara R. (2026).  
+A Goldilocks zone of DNA flexibility defines stable yet plastic nucleosomes, tuned by histone chemistry. *BioRxiv*.  
 [DOI](https://doi.org/10.64898/2026.02.16.706184)
+
+Zhang K., Maristany M.J., **Huertas J.**, Collepardo-Guevara R., Ramani V. (2026).  
+Single-molecule nucleosome spacing coordinates chromatin fiber interactions. *BioRxiv*.  
+[DOI](https://doi.org/10.64898/2026.06.02.729033)
+
+Chen Y., **Huertas J.**, Maristany M.J., Russell K., Zhang M., Farr S.E., Espinosa J.R., Collepardo-Guevara R. (2026).  
+A Spectrum of Free Energy Landscape Topologies Encodes Chromatin Polymorphism and Phase Separation. *BioRxiv*.  
+[DOI](https://doi.org/10.64898/2026.06.19.733383)
 
 ⚙ Spicer M.F.D., Wijma S., Schütte N., **Huertas J**, et al. (2026). 
 Electrostatic control of chromatin compaction safeguards against apoptotic DNA release. *BioRxiv*
@@ -27,10 +35,6 @@ Electrostatic control of chromatin compaction safeguards against apoptotic DNA r
 ★ **Huertas J.**, Maristany M.J., Collepardo-Guevara R. (2025).  
 Oct4 clusters promote DNA accessibility by enhancing chromatin plasticity. *BioRxiv*.  
 [DOI](https://doi.org/10.1101/2025.10.20.683403)
-
-⚙ Shimazoe M.A.,  **Huertas J.**, … Collepardo-Guevara R., Maeshima K. (2025).  
-Linker histone H1 functions as a liquid-like glue to organize chromatin in living human cells. *BioRxiv*.  
-[DOI](https://doi.org/10.1101/2025.03.05.641622)
 
 Bell C., Chen L., Maristany M.J., Blaukopt C., Zhou H., **Huertas J.**, et al. (2025).  
 An electrostatic repulsion model of centromere organization. *BioRxiv*.  
@@ -41,6 +45,13 @@ Near-atomistic simulations reveal the molecular principles that control chromati
 [DOI](https://doi.org/10.1101/2025.11.17.688899)
 
 ## Publications
+⚙ Shimazoe M.A.,  **Huertas J.**, … Collepardo-Guevara R., Maeshima K. (2025).  
+Linker histone H1 functions as a liquid-like glue to organize chromatin in living human cells. *BioRxiv*.  
+[DOI](https://doi.org/10.1126/sciadv.aec9801)
+
+★ **Huertas J.**, Maristany M.J., Perez-Lopez J.I., Collepardo-Guevara R. (2026).  
+Pushing the experimental resolution boundary in chromatin fibre organisation using multiscale simulations. *Current Opinion in Genetics and Development*.  
+[DOI](https://doi.org/10.1016/j.gde.2026.102464)
 
 ⚙ Zhou H., **Huertas J.**, … Collepardo-Guevara R., Rosen M.K. (2025).  
 Multi-scale structure of chromatin condensates rationalizes phase separation and material properties. *Science*, in press.  
