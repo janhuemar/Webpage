@@ -17,9 +17,8 @@ main:
   - title: "CV"
     url: /cv/
     
-  - title: "Nucleosome Pulling"
-    url: https://janhuemar.github.io/PullingNucleosomes/
-    target: _blank
+  - title: "Tools"
+    url: /tools/
     
   # - title: "CV"
   #   url: /cv-json/
