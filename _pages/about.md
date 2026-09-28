@@ -19,6 +19,4 @@ My research uses molecular simulations to understand how chromatin structure reg
 
 You can read more on the [Research]({{ '/research/' | relative_url }}) page, browse all papers on the [Publications]({{ '/publications/' | relative_url }}) page, or take a look at my [CV]({{ '/cv/' | relative_url }}).
 
-<a href="https://bsky.app/profile/janhuemar.bsky.social" target="_blank" rel="noopener" class="btn btn--primary">
-  You can find out about my latest news on Bluesky
-</a>
+{% include bluesky-feed.html limit="5" %}

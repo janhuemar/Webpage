@@ -1,0 +1,11 @@
+{% include base_path %}
+{% assign bsky_handle = include.handle | default: site.author.bluesky %}
+{% assign bsky_limit = include.limit | default: 5 %}
+{% if include.reposts == false %}{% assign bsky_reposts = "false" %}{% else %}{% assign bsky_reposts = "true" %}{% endif %}
+<section class="bsky-feed" data-bsky-handle="{{ bsky_handle }}" data-bsky-limit="{{ bsky_limit }}" data-bsky-reposts="{{ bsky_reposts }}">
+  <h2>Latest news</h2>
+  <ul class="bsky-feed__list"></ul>
+  <p class="bsky-feed__status">Loading the latest posts from Bluesky…</p>
+  <a class="btn btn--primary" href="https://bsky.app/profile/{{ bsky_handle }}" target="_blank" rel="noopener">Follow me on Bluesky</a>
+</section>
+<script src="{{ base_path }}/assets/js/bluesky-feed.js" defer></script>
