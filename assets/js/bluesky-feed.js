@@ -44,9 +44,18 @@
       var start = f.index.byteStart;
       var end = f.index.byteEnd;
       if (start < pos || end > bytes.length) return;
+      var feat = (f.features || [])[0] || {};
+      // Some apps store mention/hashtag offsets a few bytes off; nudge the
+      // range so it starts on the '@' or '#' it is meant to cover.
+      var sigil = { 'app.bsky.richtext.facet#mention': 64, 'app.bsky.richtext.facet#tag': 35 }[feat.$type];
+      if (sigil && bytes[start] !== sigil) {
+        for (var d = 1; d <= 4; d++) {
+          if (bytes[start - d] === sigil && start - d >= pos) { start -= d; end -= d; break; }
+          if (bytes[start + d] === sigil && end + d <= bytes.length) { start += d; end += d; break; }
+        }
+      }
       if (start > pos) frag.appendChild(document.createTextNode(dec.decode(bytes.slice(pos, start))));
       var label = dec.decode(bytes.slice(start, end));
-      var feat = (f.features || [])[0] || {};
       var href = null;
       if (feat.$type === 'app.bsky.richtext.facet#link') href = safeUrl(feat.uri);
       if (feat.$type === 'app.bsky.richtext.facet#mention') href = 'https://bsky.app/profile/' + feat.did;
@@ -64,13 +73,13 @@
     if (!embed) return null;
     var t = embed.$type || '';
     if (t.indexOf('app.bsky.embed.images') === 0 && embed.images && embed.images[0]) {
-      return { src: embed.images[0].thumb, alt: embed.images[0].alt || '' };
+      return { src: embed.images[0].thumb, alt: embed.images[0].alt || '', fit: 'cover' };
     }
     if (t.indexOf('app.bsky.embed.external') === 0 && embed.external && embed.external.thumb) {
-      return { src: embed.external.thumb, alt: embed.external.title || '' };
+      return { src: embed.external.thumb, alt: embed.external.title || '', fit: 'contain' };
     }
     if (t.indexOf('app.bsky.embed.video') === 0 && embed.thumbnail) {
-      return { src: embed.thumbnail, alt: embed.alt || '' };
+      return { src: embed.thumbnail, alt: embed.alt || '', fit: 'cover' };
     }
     if (t.indexOf('app.bsky.embed.recordWithMedia') === 0) return thumbOf(embed.media);
     if (t.indexOf('app.bsky.embed.record') === 0 && embed.record && embed.record.embeds) {
@@ -106,20 +115,20 @@
 
     var rkey = (post.uri || '').split('/').pop();
     var more = link('https://bsky.app/profile/' + post.author.did + '/post/' + rkey, 'View on Bluesky →');
-    var moreWrap = el('div');
+    var moreWrap = el('div', 'bsky-feed__more');
     moreWrap.appendChild(more);
     body.appendChild(moreWrap);
 
-    li.appendChild(body);
-
     var thumb = thumbOf(post.embed);
     if (thumb && safeUrl(thumb.src)) {
-      var img = el('img', 'bsky-feed__thumb');
+      var img = el('img', 'bsky-feed__thumb' + (thumb.fit === 'contain' ? ' bsky-feed__thumb--contain' : ''));
       img.src = thumb.src;
       img.alt = thumb.alt;
       img.loading = 'lazy';
+      li.className += ' bsky-feed__item--media';
       li.appendChild(img);
     }
+    li.appendChild(body);
     return li;
   }
 

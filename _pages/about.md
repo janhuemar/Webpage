@@ -19,4 +19,4 @@ My research uses molecular simulations to understand how chromatin structure reg
 
 You can read more on the [Research]({{ '/research/' | relative_url }}) page, browse all papers on the [Publications]({{ '/publications/' | relative_url }}) page, or take a look at my [CV]({{ '/cv/' | relative_url }}).
 
-{% include bluesky-feed.html limit="5" %}
+{% include bluesky-feed.html limit="4" reposts=false %}

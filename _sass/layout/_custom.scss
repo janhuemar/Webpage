@@ -77,26 +77,61 @@
   line-height: 1.5;
 }
 
-/* Bluesky feed on the home page */
+/* Bluesky feed on the home page: a grid of post cards, picture on top */
 .bsky-feed {
   margin: 2em 0 1em;
 
   &__list {
     list-style: none;
-    margin: 0 0 1em;
+    margin: 0 0 1.25em;
     padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 1em;
   }
 
   &__item {
     display: flex;
-    gap: 0.9em;
-    padding: 0.9em 0;
+    flex-direction: column;
+    margin: 0;
+    border: 1px solid var(--global-border-color);
+    border-radius: 8px;
+    overflow: hidden;
+    background: var(--global-bg-color);
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+
+    &:hover {
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+      transform: translateY(-1px);
+    }
+  }
+
+  /* posts without a picture get the same accent as the other cards */
+  &__item:not(&__item--media) {
+    border-top: 4px solid var(--global-base-color);
+  }
+
+  &__thumb {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
     border-bottom: 1px solid var(--global-border-color);
   }
 
+  /* link-preview images (journal logos etc.) are shown whole, not cropped */
+  &__thumb--contain {
+    object-fit: contain;
+    background: #fff;
+    padding: 0.75em;
+    box-sizing: border-box;
+  }
+
   &__body {
+    display: flex;
+    flex-direction: column;
     flex: 1;
-    min-width: 0;
+    padding: 0.8em 1em 1em;
     font-size: 0.875em;
     line-height: 1.5;
     overflow-wrap: anywhere;
@@ -104,27 +139,35 @@
 
   &__meta {
     display: block;
-    margin-bottom: 0.2em;
+    margin-bottom: 0.3em;
+    font-size: 0.9em;
     color: var(--global-text-color);
-  opacity: 0.7;
+    opacity: 0.7;
   }
 
   &__text {
     white-space: pre-line;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 7;
+    line-clamp: 7;
+    overflow: hidden;
   }
 
-  &__thumb {
-    flex: 0 0 96px;
-    width: 96px;
-    height: 96px;
-    object-fit: cover;
-    border-radius: 6px;
-    border: 1px solid var(--global-border-color);
+  /* no picture: let the text use the space the picture would have taken */
+  &__item:not(&__item--media) &__text {
+    -webkit-line-clamp: 13;
+    line-clamp: 13;
+  }
+
+  &__more {
+    margin-top: auto;
+    padding-top: 0.6em;
   }
 
   &__status {
     font-size: $type-size-6;
     color: var(--global-text-color);
-  opacity: 0.7;
+    opacity: 0.7;
   }
 }
