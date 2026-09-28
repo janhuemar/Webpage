@@ -1,0 +1,130 @@
+/* ==========================================================================
+   Site-specific components (publications, tools, Bluesky feed)
+   Colours use the theme's CSS variables so light and dark mode both work.
+   ========================================================================== */
+
+/* Publications: jump links */
+.pub-jump {
+  font-size: $type-size-6;
+  color: var(--global-text-color);
+  opacity: 0.7;
+  margin: 1em 0 0.5em;
+}
+
+/* Publications: selected-paper cards and Tools cards share one look */
+.pub-selected,
+.tool-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1em;
+  margin: 1em 0 2em;
+}
+
+/* Scoped under .page__content so it beats the theme's underlined-link rule */
+.page__content a.pub-card,
+.page__content a.tool-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35em;
+  padding: 1em 1.1em;
+  border: 1px solid var(--global-border-color);
+  border-left: 4px solid var(--global-base-color);
+  border-radius: 6px;
+  background: var(--global-bg-color);
+  color: var(--global-text-color);
+  text-decoration: none;
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+
+  &:hover,
+  &:focus {
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+    transform: translateY(-1px);
+    color: var(--global-text-color);
+    text-decoration: none;
+  }
+
+  &:visited {
+    color: var(--global-text-color);
+  }
+}
+
+.pub-card__title,
+.tool-card__title {
+  font-weight: bold;
+  line-height: 1.3;
+  color: var(--global-base-color);
+}
+
+.pub-card__authors {
+  font-size: 0.875em;
+  line-height: 1.4;
+}
+
+.pub-card__venue,
+.tool-card__meta {
+  font-size: $type-size-6;
+  line-height: 1.4;
+}
+
+.pub-card__venue,
+.tool-card__meta {
+  color: var(--global-text-color);
+  opacity: 0.7;
+}
+
+.tool-card__text {
+  font-size: 0.875em;
+  line-height: 1.5;
+}
+
+/* Bluesky feed on the home page */
+.bsky-feed {
+  margin: 2em 0 1em;
+
+  &__list {
+    list-style: none;
+    margin: 0 0 1em;
+    padding: 0;
+  }
+
+  &__item {
+    display: flex;
+    gap: 0.9em;
+    padding: 0.9em 0;
+    border-bottom: 1px solid var(--global-border-color);
+  }
+
+  &__body {
+    flex: 1;
+    min-width: 0;
+    font-size: 0.875em;
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+  }
+
+  &__meta {
+    display: block;
+    margin-bottom: 0.2em;
+    color: var(--global-text-color);
+  opacity: 0.7;
+  }
+
+  &__text {
+    white-space: pre-line;
+  }
+
+  &__thumb {
+    flex: 0 0 96px;
+    width: 96px;
+    height: 96px;
+    object-fit: cover;
+    border-radius: 6px;
+    border: 1px solid var(--global-border-color);
+  }
+
+  &__status {
+    font-size: $type-size-6;
+    color: var(--global-text-color);
+  opacity: 0.7;
+  }
+}
