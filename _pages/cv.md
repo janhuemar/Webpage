@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <div class="cv-download" style="margin: 1.5rem 0;">
-  <a href="{{ '/data/New_CV.pdf' | relative_url }}" target="_blank" rel="noopener" style="display:inline-block;padding:0.75rem 1rem;border:1px solid #ccc;border-radius:8px;text-decoration:none;font-weight:600;">
+  <a href="{{ '/files/New_CV.pdf' | relative_url }}" target="_blank" rel="noopener" style="display:inline-block;padding:0.75rem 1rem;border:1px solid #ccc;border-radius:8px;text-decoration:none;font-weight:600;">
     Download as a PDF
   </a>
 </div>
