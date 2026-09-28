@@ -82,7 +82,7 @@ Ng T.L.C., Hoare M.P., Maristany M.J., Wilde E.J., Sneideris T., **Huertas J.**,
 Tandem-repeat proteins introduce tuneable properties to engineered biomolecular condensates. *Chemical Science*.  
 [DOI](https://doi.org/10.1039/d5sc00903k)
 
-Maristany M.J., Gonzalez A.A., Espinosa J.R., **Huertas J.**, Collepardo-Guevara R., Joseph J.A. (2025).  
+Maristany M.J., Aguirre-Gonzalez A., Espinosa J.R., **Huertas J.**, Collepardo-Guevara R., Joseph J.A. (2025).  
 Decoding phase separation of prion-like domains through data-driven scaling laws. *eLife*.  
 [DOI](https://doi.org/10.7554/eLife.99068)
 
