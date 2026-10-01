@@ -104,7 +104,7 @@ Li H., Dalgleish J.L.T., Lister G., Maristany M.J., **Huertas J.**, et al. (2025
 Mapping chromatin structure at base-pair resolution unveils a unified model of cis-regulatory element interactions. *Cell*.  
 [DOI](https://doi.org/10.1016/j.cell.2025.10.013)
 
-Nakashima K.N., Mihoubi F.Z., … **Huertas J.**, Rubio-Sánchez R., Collepardo-Guevara R., O’Flaherty D.K., Bonfio C. (2025).  
+Nakashima K.K., Mihoubi F.Z., … **Huertas J.**, Rubio-Sánchez R., Collepardo-Guevara R., O’Flaherty D.K., Bonfio C. (2025).  
 Differential stability and dynamics of DNA-based and RNA-based coacervates affect non-enzymatic RNA chemistry. *Nature Communications*.  
 [DOI](https://doi.org/10.1038/s41467-025-64335-9)
 
@@ -169,5 +169,5 @@ ArhGEF37 assists dynamin 2 during clathrin-mediated endocytosis. *Journal of Cel
 
 ## Book chapters
 
-Maristany M.J., **Huertas J.**, Perez-Lopez J.I., Russell K., Chen Y., Farr S., Collepardo-Guevara R. (2025).  
+Maristany M.J., **Huertas J.**, Perez-Lopez J.I., Russell K., Chen Y., Farr S., Collepardo-Guevara R. (2026).  
 Multiscale simulations of chromatin structure and chromatin phase transitions. *Methods in Molecular Biology* (Springer Nature), in press.  

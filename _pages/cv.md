@@ -50,30 +50,33 @@ Universitat Pompeu Fabra, Barcelona
 <small>★ First/Co-First author · © Computational Modelling Lead · § Co-corresponding author</small>
 
 1. **★ Huertas J, Maristany MJ, Collepardo-Guevara R.** *Oct4 clusters promote DNA accessibility by enhancing chromatin plasticity.* BioRxiv. Under Review in *Nature Communications* (2026).
-2. **© Zhou H, Huertas J, [...] Collepardo-Guevara R, Rosen MK.** *Multi-scale structure of chromatin condensates rationalizes phase separation and material properties.* *Science* (2025).
+2. **© Zhou H, Huertas J, [...] Collepardo-Guevara R, Rosen MK.** *Multiscale structure of chromatin condensates explains phase separation and material properties.* *Science* (2025).
 3. **★ Huertas J and MacCarthy CM, […] Schöler HR, Cojocaru V.** *OCT4 interprets and enhances nucleosome flexibility.* *Nucleic Acids Research* (2022).
-4. **§ Maristany MJ and Perez-Lopez JI, Farr SE, Huertas J and Collepardo-Guevara R.** *A Goldilocks zone of DNA flexibility defines stable yet plastic nucleosomes, tuned by histone chemistry.* BioRxiv. Under Review in *Nature Communications* (2026).
+4. **§ Perez-Lopez JI and Maristany MJ, Farr SE, Huertas J and Collepardo-Guevara R.** *A Goldilocks zone of DNA flexibility defines stable yet plastic nucleosomes, tuned by histone chemistry.* BioRxiv. Under Review in *Nature Communications* (2026).
 5. **© Shimazoe MA, Huertas J, [...] Collepardo-Guevara R and Maeshima K.** *Linker histone H1 functions as a liquid-like glue to organize chromatin in living human cells.* *Science Advances* (2026).
 
 ## Full Publication List
 
 6. Maristany MJ, Huertas J, et al. *Multiscale simulations of chromatin structure and chromatin phase transitions.* Springer Nature, Methods in Molecular Biology – in press (2026).  
-7. ★ Huertas J, Maristany MJ, Perez Lopez JI, Collepardo R. *Pushing the experimental resolution boundary in chromatin fibre organisation using multiscale simulations.* *Current Opinion in Genetics and Development* – in press (2026).  
-8. © Spicer MFD, Wijma S, Schütte N, Huertas J et al. *Electrostatic control of chromatin compaction safeguards against apoptotic DNA release.* BioRxiv (2026).  
-9. Li H and Dalgliesh JLT, Lister G, Maristany MJ, Huertas J et al. *Mapping chromatin structure at base-pair resolution unveils a unified model of cis-regulatory element interactions.* *Cell* (2025).  
-10. Russel K, […] Huertas J, Orozco M, Rosen MK, Collepardo-Guevara R. *Near-atomistic simulations reveal the molecular principles that control chromatin structure and phase separation.* BioRxiv (2025).  
-11. Bell C and Chen L and Maristany MJ, Blaukopt C, Zhou H, Huertas J et al. *An electrostatic repulsion model of centromere organization.* BioRxiv (2025).  
-12. Nakashima KN and Mihoubi FZ, […] Huertas J, Rubio-Sánchez R, Collepardo-Guevara R, O’Flaherty DK, Bonfio C. *Differential stability and dynamics of DNA-based and RNA-based coacervates affect non-enzymatic RNA chemistry.* *Nature Communications* (2025).  
-13. Chen L, [...] Huertas J, Redding S, Collepardo-Guevara R, Rosen MK. *Nucleosome Spacing Can Fine-Tune Higher Order Chromatin Assembly.* *Nature Communications* (2025).  
-14. © Montez M and Zhu D, Huertas J, [...] Collepardo-Guevara R, Dean C. *Cold-induced nucleosome dynamics linked to silencing of Arabidopsis FLC.* *Nature Communications* (2025).  
-15. Maristany MJ, Aguirre A, Espinosa JR, Huertas J, Collepardo-Guevara R, Joseph JA. *Decoding Phase Separation of Prion-Like Domains through Data-Driven Scaling Laws.* *eLife* (2025).  
-16. Ng TLC and Hoare MP and Maristany MJ, Wilde EJ, Sneideris T, Huertas J, [...] Kumita JR. *Tandem-repeat proteins introduce tuneable properties to engineered biomolecular condensates.* *ACS Chemical Science* (2024).  
-17. Orsetti A and Van Oosten D, […] Huertas J, van Ingen H, Cojocaru V. *Structural dynamics in chromatin unraveling by pioneer transcription factors.* *Biophysical Reviews* (2024).  
-18. ★ Huertas J, Woods E, Collepardo-Guevara R. *Multiscale modelling of chromatin organisation: Resolving nucleosomes at near-atomistic resolution inside genes.* *Current Opinion in Cell Biology* (2022).  
-19. ★ Huertas J, Schöler HR, Cojocaru V. *Histone tails cooperate to control the breathing of genomic nucleosomes.* *PLoS Computational Biology* (2021).  
-20. ★ Huertas J, Cojocaru V. *Breaths, twists, and turns of atomistic nucleosomes.* *Journal of Molecular Biology* (2021).  
-21. ★ Huertas J, MacCarthy CM, Schöler HR, Cojocaru V. *Nucleosomal DNA Dynamics Mediate Oct4 Pioneer Factor Binding.* *Biophysical Journal* (2020).  
-22. © Viplav A., Saha J, Huertas J, […] Galic M. *ArhGEF37 assists dynamin 2 during clathrin-mediated endocytosis.* *Journal of Cell Science* (2019).
+7. Maristany MJ, Russell K, Perez-Lopez JI, Huertas J, Collepardo-Guevara R. *Molecular simulations of chromatin-associated biomolecular condensates.* *Current Opinion in Structural Biology* (2026).  
+8. ★ Huertas J, Maristany MJ, Perez-Lopez JI, Collepardo-Guevara R. *Pushing the experimental resolution boundary in chromatin fibre organisation using multiscale simulations.* *Current Opinion in Genetics and Development* (2026).  
+9. Chen Y, Huertas J, Maristany MJ, Russell K, Zhang M, Farr SE, Espinosa JR, Collepardo-Guevara R. *A Spectrum of Free Energy Landscape Topologies Encodes Chromatin Polymorphism and Phase Separation.* BioRxiv (2026).  
+10. Zhang K, Maristany MJ, Huertas J, Collepardo-Guevara R, Ramani V. *Single-molecule nucleosome spacing coordinates chromatin fiber interactions.* BioRxiv (2026).  
+11. © Spicer MFD, Wijma S, Schütte N, Huertas J et al. *Electrostatic control of chromatin compaction safeguards against apoptotic DNA release.* BioRxiv (2026).  
+12. Li H and Dalgleish JLT, Lister G, Maristany MJ, Huertas J et al. *Mapping chromatin structure at base-pair resolution unveils a unified model of cis-regulatory element interactions.* *Cell* (2025).  
+13. Russell K, […] Huertas J, Orozco M, Rosen MK, Collepardo-Guevara R. *Near-atomistic simulations reveal the molecular principles that control chromatin structure and phase separation.* BioRxiv (2025).  
+14. Bell C and Chen L and Maristany MJ, Blaukopf C, Zhou H, Huertas J et al. *An electrostatic repulsion model of centromere organisation.* BioRxiv (2025).  
+15. Nakashima KK and Mihoubi FZ, […] Huertas J, Rubio-Sánchez R, Collepardo-Guevara R, O’Flaherty DK, Bonfio C. *Differential stability and dynamics of DNA-based and RNA-based coacervates affect non-enzymatic RNA chemistry.* *Nature Communications* (2025).  
+16. Chen L, [...] Huertas J, Redding S, Collepardo-Guevara R, Rosen MK. *Nucleosome Spacing Can Fine-Tune Higher Order Chromatin Assembly.* *Nature Communications* (2025).  
+17. © Montez M and Zhu D, Huertas J, [...] Collepardo-Guevara R, Dean C. *Cold-induced nucleosome dynamics linked to silencing of Arabidopsis FLC.* *Nature Communications* (2025).  
+18. Maristany MJ, Aguirre A, Espinosa JR, Huertas J, Collepardo-Guevara R, Joseph JA. *Decoding Phase Separation of Prion-Like Domains through Data-Driven Scaling Laws.* *eLife* (2025).  
+19. Ng TLC and Hoare MP and Maristany MJ, Wilde EJ, Sneideris T, Huertas J, [...] Kumita JR. *Tandem-repeat proteins introduce tuneable properties to engineered biomolecular condensates.* *Chemical Science* (2025).  
+20. Orsetti A and Van Oosten D, […] Huertas J, van Ingen H, Cojocaru V. *Structural dynamics in chromatin unraveling by pioneer transcription factors.* *Biophysical Reviews* (2024).  
+21. ★ Huertas J, Woods E, Collepardo-Guevara R. *Multiscale modelling of chromatin organisation: Resolving nucleosomes at near-atomistic resolution inside genes.* *Current Opinion in Cell Biology* (2022).  
+22. ★ Huertas J, Schöler HR, Cojocaru V. *Histone tails cooperate to control the breathing of genomic nucleosomes.* *PLoS Computational Biology* (2021).  
+23. ★ Huertas J, Cojocaru V. *Breaths, twists, and turns of atomistic nucleosomes.* *Journal of Molecular Biology* (2021).  
+24. ★ Huertas J, MacCarthy CM, Schöler HR, Cojocaru V. *Nucleosomal DNA Dynamics Mediate Oct4 Pioneer Factor Binding.* *Biophysical Journal* (2020).  
+25. © Viplav A, Saha T, Huertas J, […] Galic M. *ArhGEF37 assists dynamin 2 during clathrin-mediated endocytosis.* *Journal of Cell Science* (2019).
 
 ## Grants
 
