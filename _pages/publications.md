@@ -32,7 +32,7 @@ author_profile: true
   <a class="pub-card" href="https://doi.org/10.64898/2026.02.16.706184">
     <span class="pub-card__title">A Goldilocks zone of DNA flexibility defines stable yet plastic nucleosomes, tuned by histone chemistry</span>
     <span class="pub-card__authors">✉ Perez-Lopez J.I. and Maristany M.J., Farr S.E., <strong>Huertas J.</strong>, Collepardo-Guevara R.</span>
-    <span class="pub-card__venue"><em>bioRxiv</em> preprint (2026)</span>
+    <span class="pub-card__venue"><em>Nature Communications</em>, in press (2026) · <em>bioRxiv</em> preprint</span>
   </a>
   <a class="pub-card" href="https://doi.org/10.1126/sciadv.aec9801">
     <span class="pub-card__title">Linker histone H1 functions as a liquid-like glue to organize chromatin in living human cells</span>
@@ -57,15 +57,15 @@ Single-molecule nucleosome spacing coordinates chromatin fiber interactions. *Bi
 [DOI](https://doi.org/10.64898/2026.06.02.729033)
 
 ⚙ Spicer M.F.D., Wijma S., Schütte N., **Huertas J.**, et al. (2026).  
-Electrostatic control of chromatin compaction safeguards against apoptotic DNA release. *BioRxiv*.  
+Electrostatic control of chromatin compaction safeguards against apoptotic DNA release. *BioRxiv*. In press, *EMBO Journal*.  
 [DOI](https://doi.org/10.64898/2026.02.23.707452)
 
 ✉ Perez-Lopez J.I. and Maristany M.J., Farr S.E., **Huertas J.**, Collepardo-Guevara R. (2026).  
-A Goldilocks zone of DNA flexibility defines stable yet plastic nucleosomes, tuned by histone chemistry. *BioRxiv*.  
+A Goldilocks zone of DNA flexibility defines stable yet plastic nucleosomes, tuned by histone chemistry. *BioRxiv*. In press, *Nature Communications*.  
 [DOI](https://doi.org/10.64898/2026.02.16.706184)
 
 Russell K., … **Huertas J.**, Orozco M., Rosen M.K., Collepardo-Guevara R. (2025).  
-Near-atomistic simulations reveal the molecular principles that control chromatin structure and phase separation. *BioRxiv*.  
+Near-atomistic simulations reveal the molecular principles that control chromatin structure and phase separation. *BioRxiv*. In press, *Nature Communications*.  
 [DOI](https://doi.org/10.1101/2025.11.17.688899)
 
 ★ **Huertas J.**, Maristany M.J., Collepardo-Guevara R. (2025).  
